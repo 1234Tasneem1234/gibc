@@ -1,0 +1,88 @@
+.navbar-link {
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+}
+.navbar-link:hover {
+  width: 20px;
+  padding: 5px 10px;
+  border: 2px solid rgb(109, 230, 163);
+  border-radius: 15px;
+  background-color: rgba(72, 72, 72, 0.864);
+  color: rgb(255, 255, 255);
+}
+.navbar-link:focus {
+  color: rgba(109, 109, 109, 0.768);
+  border: none;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.site-main-head {
+  border-right: 5px solid;
+  border-image: linear-gradient(
+    rgb(32, 145, 3),
+    rgb(91, 255, 118),
+    rgb(5, 128, 5)
+  );
+  border-image-slice: 1;
+  padding: 10px 10px;
+  margin-top: 100px;
+}
+.site-heading {
+  text-align: center;
+  padding: 60px 5px;
+  background-image: linear-gradient(rgb(180, 248, 180), rgb(114, 187, 77));
+}
+.content-heading {
+  background-color: rgb(253, 253, 159);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.content-container {
+  margin: 50px 2px;
+  padding: 10px 5px;
+  background-color: rgb(211, 250, 171);
+  border: 4px solid;
+  border-image: linear-gradient(rgb(151, 221, 188), rgb(166, 243, 89));
+  border-image-slice: 1;
+  box-shadow: 6px 6px 15px gray;
+}
+table {
+  border: 2px solid;
+  box-shadow: 5px -5px 20px rgb(124, 123, 123);
+}
+p {
+  font-size: 18px;
+}
+.site-nav {
+  background-color: rgba(252, 253, 251, 0.912);
+}
+.supporter {
+  padding: 10px 0px 50px 0px;
+}
+footer {
+  border-top: 3px solid rgb(74, 87, 54);
+  background-color: rgb(211, 248, 206);
+  padding: 10px 10px 0px 15px;
+}
+footer:hover, footer:focus {
+  background-image: linear-gradient(
+    rgb(216, 255, 216),
+    rgb(143, 243, 143),
+    rgb(96, 255, 96)
+  );
+}
+footer > p {
+  font-size: 20px;
+  margin: 10px 0 0 0;
+}
+footer > p > a {
+  text-decoration: none;
+  color: rgb(92, 92, 92);
+}
+footer > p > a:hover {
+  text-decoration: underline;
+  color: black;
+}
